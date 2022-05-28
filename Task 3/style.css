@@ -1,0 +1,54 @@
+#container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#heading{
+    width: 40%;
+    margin: auto;
+    font-size: 1.7rem;
+}
+#cont{
+    display:flex;
+    border: 2px solid black;
+    padding: 1.4rem;
+    margin-bottom: 0;
+}
+
+#form{
+    width: 50%;
+}
+#enroll{
+    width: 50%;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    border-left: 2px solid aqua !important;
+}
+.p{
+   margin-left: 8rem ; 
+   font-size: 1.7rem;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    padding-left: 3rem !important;
+}
+td{
+    padding-left: 1rem !important;
+}
+#table{
+    margin-left: 2rem;
+    width:90%;
+    color: black;
+}
+.card h2{
+    font-size: 1.7rem;
+}
+body{
+    height: 100%;
+    background-color: hsl(20, 96%, 51%);
+    box-sizing: border-box;
+}

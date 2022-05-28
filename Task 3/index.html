@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/44d7a3df0c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="heading"> Student Enrollment Form </div>
+    <div id="cont">
+      <div id="form">
+        <form action="" id="register">
+          <!-- name -->
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control  has-icons-left has-icons-right">
+              <input class="input" type="text" id="name">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </div>
+          </div>
+          <!-- emailid -->
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="email" id="emailid">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+            </div>
+          </div>
+          <!-- website -->
+          <div class="field">
+            <label class="label">Website</label>
+            <div class="control">
+              <input class="input" type="text" id="website">
+            </div>
+          </div>
+           <!-- Image Link -->
+           <div class="field">
+            <label class="label">Image Link</label>
+            <div class="control">
+              <input class="input" type="text" id="imglink">
+            </div>
+          </div>
+          <!-- gender -->
+          <div class="field">
+            <div class="control" id="gender"> Gender : <br>
+              <label class="radio">
+                <input type="radio" name="gender" id="male">
+                Male
+              </label>
+              <label class="radio">
+                <input type="radio" name="gender" id="female">
+                Female
+              </label>
+            </div>
+          </div>
+          <!-- Skills -->
+          <div class="field">
+            <div class="control" id="skills"> Skills : <br>
+              <label class="checkbox">
+                <input type="checkbox" name="skills" id="java"> Java
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="skills" id="html"> HTML
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="skills" id="css"> CSS
+              </label>
+            </div>
+          </div>
+
+          <div class="field is-grouped">
+            <div class="control">
+              <button type="submit" class="button is-link">Submit</button>
+            </div>
+            <div class="control">
+              <button type="reset" class="button is-link is-light">Cancel</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="enroll">
+        <p class="p">Enrolled Student</p>
+       <table id="table">
+         <tr>
+          <th>Description</th>
+          <th>Image</th>
+         </tr>
+
+       </table>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+
+</html>
