@@ -1,0 +1,86 @@
+nav{
+  display: flex;
+  align-items: center;
+  border:2px solid black;
+  border-radius: 16px;
+
+  /* background-color:rgb(92, 255, 80); */
+  background-color: rgba(240, 200, 200, 0.726);
+  padding-left: 10%;
+}
+nav p{
+  margin: 6px;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav button{
+  width: 140px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: cursive;
+  border-radius: 20px;
+  height: 30px;
+  background-color: rgb(190, 232, 178);
+  border: 1px solid black;
+  margin-left: 500px;
+}
+nav button:hover{
+  cursor: pointer;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#heading{
+    text-align: center;
+}
+#card{
+    width:200px;
+    border: 2px solid black;
+    margin: 1.5rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#name{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 5px;
+}
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    top: 160px;
+    left:-50px;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 52px solid #fff;
+    border-color: rgb(68, 58, 58) transparent rgb(53, 49, 49) transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+  
